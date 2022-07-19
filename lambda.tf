@@ -1,3 +1,4 @@
+import pathlib{ 
 resource "aws_lambda_function" "test_lambda" {
   # If the file is not in the current working directory you will need to include a 
   # path.module in the filename.
@@ -14,4 +15,5 @@ resource "aws_lambda_function" "test_lambda" {
 
   runtime = "python3.8"
 
+}
 }
