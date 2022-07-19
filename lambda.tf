@@ -1,6 +1,7 @@
 resource "aws_lambda_function" "test_lambda" {
   # If the file is not in the current working directory you will need to include a 
   # path.module in the filename.
+  path          = "/home/ubuntu/jenkins/workspace/Lambda_deploy_via_terraform"
   filename      = "lambda_function.zip"
   function_name = "lambda_function"
   role          = aws_iam_role.lambda_role.arn
