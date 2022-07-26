@@ -1,0 +1,6 @@
+{
+    "lambdaFunction": {
+      "lambdaArn": "arn:aws:lambda:ap-south-1:236121337360:function:lambda_function:2",
+      "componentName": "my_function"
+      }
+  }
